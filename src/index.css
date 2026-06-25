@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-natural-bg: #FAF9F6;
+  --color-natural-text: #2D362E;
+  --color-natural-muted: #7A827B;
+  --color-natural-sage: #8BA888;
+  --color-natural-sage-dark: #4A6748;
+  --color-natural-sage-light: #E8F3E7;
+  --color-natural-sidebar: #2D362E;
+  --color-natural-sidebar-hover: #3A453B;
+  --color-natural-border: #E2E8E4;
+  --color-natural-border-dark: #D1D9D3;
+  --color-natural-coral: #C45E3A;
+  --color-natural-ochre: #A6754B;
+  --color-natural-cream: #FAF9F6;
+  --color-natural-sand: #F5F2F0;
+}
+
+/* Custom scrollbar styling for a polished aesthetic */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(139, 168, 136, 0.35) transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(139, 168, 136, 0.35);
+  border-radius: 9999px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 168, 136, 0.6);
+}
+
